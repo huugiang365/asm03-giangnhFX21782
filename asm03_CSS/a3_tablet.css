@@ -1,0 +1,274 @@
+@media (max-width: 768px) {
+    
+    /***********************************************************************/
+    
+    
+    /***********************************************************************/
+    /*CSS Banner*/
+    .img-banner img {
+        width:100%;
+        height:100%;
+    }
+    
+    .text-banner {
+        top: 12%;
+        left: 48%;
+    }
+    
+    /* Hết CSS Banner*/
+    /***********************************************************************/
+    
+    
+    /***********************************************************************/
+    /* CSS Nav-bar*/
+    
+    .navbar {
+        grid-template-columns: 100px 100px 20px 100px 100px;
+    }
+    
+    .ibcp-name {
+        display: none;
+    }
+    
+    /*css ảnh avartar*/
+    
+    #avatar {
+        display: none;
+    }
+
+    /* Hết CSS Nav-bar*/
+    /***********************************************************************/
+    
+    
+    
+    
+    /***********************************************************************/
+    /* CSS bone(block-one)  Mục tiêu nghề nghiệp - Thông tin cá nhân*/
+
+    .bone {
+        display: flex;
+        column-gap: 10px;
+    }
+    
+    .bone-accuracy-target {
+        
+        
+        margin: 20px 0 40px 0;
+     }
+    
+    .bone-target-title {
+        
+        padding: 0px 10px;
+    }
+    
+    .bone-target-content {
+        padding:20px 10px 0px 10px;
+    }
+    
+    .bone-accuracy-infor {
+        
+        margin: 20px 0 40px 0px;
+    }
+    
+    .personal-infor-title {
+        padding: 20px 10px 110px 20px;
+    }
+     
+    .personal-infor-detail {
+        margin:-90px 0px -100px -10px;
+    }
+        
+    .icon-contact {
+        margin-top: 20px;
+     }
+
+  
+    /*Hết CSS bone(block-one)  Mục tiêu nghề nghiệp - Thông tin cá nhân */
+    /***********************************************************************/
+    
+    
+    /***********************************************************************/
+    /* CSS btwo(block-two) có chức năng ẩn thông tin cá nhân */
+    
+   
+    .btwo {
+        display: flex;
+        column-gap: 10px;
+    }
+    
+    .btwo-accuracy-target {
+        padding: 10px 20px 20px 20px;
+        margin: 20px 0 40px 0;
+     }
+    
+    .btwo-target-title {
+        padding: 20px 0;
+    }
+    
+    .btwo-accuracy-infor {
+        padding: 10px;
+        margin: 20px 0px 40px 0;
+    }
+    
+    .form-group-title {
+        margin: 20px 0px 30px 0;
+    }
+    
+    
+    /*CSS cho đoạn data-tooltip="giangnhFX21782@funix.edu.vn" */
+    
+    /* Kế thừa từ PC.CSS*/
+    
+    /* Hết CSS cho đoạn data-tooltip="giangnhFX21782@funix.edu.vn" */
+    
+   .btn--button {
+        margin-top: 30px;
+    }
+       
+    .hidden {
+        display: none;
+    } 
+  
+    /* Hết CSS btwo(block-two) có chức năng ẩn thông tin cá nhân */
+    /***********************************************************************/
+    
+    
+    /***********************************************************************/
+    /* CSS kinh nghiệm- học vấn- hoạt động- sở thích- ngôn ngữ- kỹ năng*/
+    
+    .active-to-skills {
+        
+        grid-template-columns: 49% 49%;
+        grid-template-areas: 
+        'act  exp'
+        'ski aca'
+        'hob lan';
+    }
+    
+    /*CSS từng khối Kinh nghiệm - Học vấn - Hoạt động*/
+    
+    
+    /*Kế thừa PC.CSS*/
+    
+        
+    /* Hết CSS Kinh nghiệm - Học vấn - Hoạt động*/
+    
+    /*CSS từng khối Sở thích - Ngôn ngữ - Kỹ năng*/
+    
+    
+    .frame6 {
+        margin: 0px 0px -60px 0px;
+    }
+    
+    .hobby-mgtc-iconst {
+        margin: 20px 20px 20px 15px;
+    }
+    
+     /*Hết CSS Sở thích - Ngôn ngữ - Kỹ năng*/
+    /*Hết css kinh nghiệm- học vấn- hoạt động- sở thích- ngôn ngữ- kỹ năng*/
+    /***********************************************************************/
+    
+    /***********************************************************************/
+    /* CSS chức năng ẩn thông tin nghề nghiệp*/
+    
+    /*Kế thừa PC.CSS*/
+    
+    /* Hết CSS chức năng ẩn thông tin nghề nghiệp*/
+    /***********************************************************************/
+    
+    
+    /***********************************************************************/
+    /*CSS Chứng chỉ- Giải thưởng*/
+    
+    .img-award-certificate-tablet {
+        width: 100%;
+        height: 100%;
+    }
+    .awa-cer-1, .awa-cer-2, .awa-cer-3 {
+        display: block;
+    }
+    
+    .awa-cer-1, .awa-cer-3 {
+        padding-right:20px
+    }
+    
+    .awa-cer-1-text, .awa-cer-2-text, .awa-cer-3-text {
+        padding: 20px 0;
+    }
+    
+    .img-2-border, .awa-cer-2-text {
+        border-left: 1px solid #d6c08d;
+        padding-left: 20px;
+    }
+    
+    
+    /* Hết CSS Chứng chỉ- Giải thưởng*/
+    /***********************************************************************/
+    
+    
+    /***********************************************************************/
+    /* CSS Dự án*/
+    
+    .container-pro {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        column-gap: 2%;
+     }
+    .icon-pro {
+        column-gap: 20px;
+    }
+       
+    .icon-pro-year {
+        margin: 15% 5px;
+    }
+    
+    .describe-1,.describe-2, .describe-3 {
+        
+        column-gap: 32px;
+    }
+    
+    .mission {
+        
+        column-gap: 10px;
+    }
+
+    .tech-pro-1 {
+        column-gap: 3px;
+    }
+    
+    .tech-pro-1-content{
+        width: 100%;
+    }
+    
+    .tech-pro-2-content, .tech-pro-3-content {
+        margin-left: -15px;
+    }
+    
+    
+    /* Hết CSS dự án*/
+    /***********************************************************************/
+    
+    
+    
+    /***********************************************************************/
+    /* CSS cho 'Dự án ' gắn đường link đến page 'Digital-CV' */
+
+    /*Kế thừa PC.CSS*/
+    
+    /* Hết CSS cho 'Dự án ' gắn đường link đến page 'Digital-CV' */
+    /***********************************************************************/
+    
+    
+    
+    /***********************************************************************/
+    /* CSS phần liên hệ*/
+    
+    /*Kế thừa PC.CSS*/
+
+    /* Kết thúc CSS phần liên hệ*/
+    /***********************************************************************/
+    
+    
+}
+    
+    

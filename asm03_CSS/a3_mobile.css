@@ -1,0 +1,343 @@
+@media (max-width: 576px){
+    
+    /***********************************************************************/
+    
+    
+    /***********************************************************************/
+    /*CSS Banner*/
+    .img-banner img {
+        width:100%;
+        height:100%;
+    }
+    
+    .text-banner {
+        top: 10%;
+        left: 50%;
+    }
+    
+    .text-banner h1 {
+        font-size: 14px;
+    }
+    .text-banner span {
+        font-size: 10px;
+        color: #bdc3d7;
+    }
+    /* Hết CSS Banner*/
+    /***********************************************************************/
+    
+    
+    /***********************************************************************/
+    /* CSS Nav-bar*/
+    .navbar {
+        display: inline-block;       
+    }
+    
+    .ibcp {
+        display: flex;
+        justify-content: left;
+    }
+    
+    .nav-name {
+        display:none;
+    }
+     
+    .nav-ibcp {
+        border-left: none;
+        padding: 20px 0 0 20px;;
+    }
+    .nav-projects {
+        border-right: none;
+    }
+    
+    
+    /*css ảnh avartar*/
+    #avatar {
+        display: none;
+    }
+    
+    /* Hết CSS Nav-bar*/
+    /***********************************************************************/
+    
+    
+    
+    
+    /***********************************************************************/
+    /* CSS bone(block-one)  Mục tiêu nghề nghiệp - Thông tin cá nhân */
+    .bone {
+        display: block;
+    }
+    
+    .bone-accuracy-target {
+        width: 100%;
+        padding: 20px 0px 10px 0px;
+    }
+    
+    .bone-target-title {
+        padding: 0px 10px 20px 10px;
+    }
+    
+    .bone-target-content {
+        padding:0px 10px;
+    }
+    
+    .bone-accuracy-infor {
+        width: 100%;
+        margin: 20px 0 120px 0px;
+    }
+    
+    .personal-infor-title {
+        padding: 20px 10px 120px 10px;
+        font-size: 24px;
+    }
+     
+    .personal-infor-detail {
+        margin:-100px -20px -90px -20px;
+       padding-bottom: 10px;
+    }
+    
+    /*Hết CSS bone(block-one)  Mục tiêu nghề nghiệp - Thông tin cá nhân */
+    /***********************************************************************/
+    
+    
+    /***********************************************************************/
+    /* CSS btwo(block-two) có chức năng ẩn thông tin cá nhân */
+    .btwo {
+        display: block;
+    }
+    
+    .btwo-accuracy-target {
+        width: 100%;
+        padding: 0px 10px 10px 10px;
+        margin: 20px 0;
+     }
+    
+    .btwo-target-title {
+        
+        padding: 20px 0px;
+    }
+    
+    .btwo-accuracy-infor {
+        width: 100%;
+        padding: 5px;
+        margin: 20px 0px;
+    }
+    
+    .form-group-title {
+        margin: 20px 0px 40px 0;
+    }
+    
+    /*CSS cho đoạn data-tooltip="giangnhFX21782@funix.edu.vn" */
+    
+    /*Kế thừa từ PC.CSS*/
+    
+    /* Hết CSS cho đoạn data-tooltip="giangnhFX21782@funix.edu.vn" */
+    
+    .btn--button {
+        margin: 10px 0;
+    }
+    
+    .hidden {
+        display: none;
+    } 
+      
+    /* Hết CSS btwo(block-two) có chức năng ẩn thông tin cá nhân */
+    /***********************************************************************/
+    
+    
+    /***********************************************************************/
+    /* CSS kinh nghiệm- học vấn- hoạt động- sở thích- ngôn ngữ- kỹ năng*/
+    .active-to-skills {
+        display: block;
+    }
+    
+    /*CSS từng khối Kinh nghiệm - Học vấn - Hoạt động*/
+    
+    .act-aca-exp {
+        margin: 20px 0px;
+    }
+    
+    .frame1 {
+        padding: 15% 0 0 8%;
+    }
+    
+    .frame2 {
+        padding: 20% 0;
+        font-size: 40px;
+    }
+    
+    .frame3 {
+        grid-column: 1 / 3;
+        padding: 0 5% 20% 0;
+    }
+    
+    /* Hết CSS Kinh nghiệm - Học vấn - Hoạt động*/
+    
+    /*CSS từng khối Sở thích - Ngôn ngữ - Kỹ năng*/
+    
+    .hob-lan-ski {
+        margin: 20px 0;
+    }
+    
+    .frame4 {
+        padding: 15% 0 0 8%;
+    }
+    
+    .frame5 {
+        padding: 20% 0;
+        font-size: 40px;
+    }
+    .frame6 {
+        margin-bottom: -30px;
+        padding: 0 5% 20% 0;
+    }
+    
+    .hobby {
+        padding: 20% 0% 0% 2.5%;
+    }
+    
+    .hobby-mgtc-iconst {
+        margin: 15px;
+    }
+     /*Hết CSS Sở thích - Ngôn ngữ - Kỹ năng*/
+    
+    /*Hết css kinh nghiệm- học vấn- hoạt động- sở thích- ngôn ngữ- kỹ năng*/
+    /***********************************************************************/
+
+
+    
+    /***********************************************************************/
+    /* CSS chức năng ẩn thông tin nghề nghiệp*/
+
+    /* ĐƯỢC KẾ THỪA TỪ PC.CSS*/
+    
+    
+     /* Tạo mũi tên hướng xuống khi view more*/
+    
+    
+     /* Tạo mũi tên hướng lên khi view less*/
+    
+     /*Mặc định ẩn đi, khi hover chuột vào thì hiện ra view more & view less.*/
+    
+    
+    
+    /* Hết CSS chức năng ẩn thông tin nghề nghiệp*/
+    /***********************************************************************/
+    
+    
+    /***********************************************************************/
+    /*CSS Chứng chỉ- Giải thưởng*/
+    
+   
+    .awa-cer {
+        display: block;
+    }
+    
+    .awa-cer-title {
+        padding-top: 20px;
+    }
+    
+    .img-award-certificate-mobile {
+        width: 100%;
+        height: 100%;
+    }
+
+    .awa-cer-1, .awa-cer-2, .awa-cer-3 {
+        display: block;
+        margin: 20px 0;
+        padding: 20px 0 20px 0;
+    }
+    
+    .awa-cer-3 {
+        border-bottom: 1px solid #d6c08d;
+    }
+    
+    .awa-cer-1-text, .awa-cer-2-text, .awa-cer-3-text {
+        padding: 20px 0 0 10px;
+    }
+    
+    .img-2-border {
+        border-left: none;
+        padding-left:0;
+    }
+    
+    
+    /* Hết CSS Chứng chỉ- Giải thưởng*/
+    /***********************************************************************/
+    
+    
+    /***********************************************************************/
+    /* CSS Dự án*/
+   
+    .container-pro {
+        display: block;
+     }
+    
+    .project-1, .project-2, .project-3 {
+        margin: 20px 0;
+    }
+    
+    .icon-pro {
+        display:block;
+    }
+    
+    .describe-1 {
+        display: flex;
+        column-gap: 60px;
+    }
+    
+    .describe-2 {
+        display: flex;
+        column-gap: 50px;
+    }
+    
+    .describe-3 {
+        display: flex;
+        column-gap: 35px;
+    }
+    
+    
+    .describe-text {
+        width:60%;
+    }
+
+    .describe-2-text, .describe-3-text {
+        width: 100%;
+    }
+    
+    .tech-pro {
+        display: flex;
+        column-gap: 15px;
+    }
+    /* Hết CSS dự án*/
+    /***********************************************************************/
+    
+    
+    
+    /***********************************************************************/
+    /* CSS cho 'Dự án ' gắn đường link đến page 'Digital-CV' */
+    
+    .project-html {
+        width: 60px;
+        height: 50px;
+        background-color:#630ae3;
+        padding: 10px 0px;
+    }
+    
+     .project-html-title {
+        font-size: 21px;
+    }
+    
+    /* Hết CSS cho 'Dự án ' gắn đường link đến page 'Digital-CV' */
+    /***********************************************************************/
+    
+    
+    
+    /***********************************************************************/
+    /* CSS phần liên hệ*/
+    .contact {
+        column-gap:80px;
+    }
+    /* Kết thúc CSS phần liên hệ*/
+    /***********************************************************************/
+
+}
